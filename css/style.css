@@ -21,7 +21,7 @@ body.invisible {
 }
 @font-face {
   font-family: Poppins;
-  src: url(../font/Poppins-Light.ttf);
+  src: url(/font/Poppins-Light.ttf);
 }
 h1,
 h2,
@@ -49,10 +49,10 @@ p {
   transition: 0.3s;
 }
 .game_card.X {
-  background-image: url("../image/tic-tac-toe-1.webp");
+  background-image: url("/image/tic-tac-toe-1.webp");
 }
 .game_card.O {
-  background-image: url("../image/tic-tac-toe-2.png");
+  background-image: url("/image/tic-tac-toe-2.png");
 }
 .game_line {
   position: absolute;
