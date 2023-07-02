@@ -1,1 +1,123 @@
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}body{overflow:hidden;transition:.3s}body.invisible{opacity:0}.container{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center}@font-face{font-family:Poppins;src:url(../../font/Poppins-Light.ttf)}h1,h2,h3,h4,h5,h6,p{font-weight:inherit;font-family:Poppins}.game{position:relative;width:300px;height:300px;display:flex;flex-wrap:wrap}.game_card{width:100px;height:100px;background-size:80%;background-position:center;background-repeat:no-repeat;transition:.3s}.game_card.X{background-image:url("../../image/tic-tac-toe-1.webp")}.game_card.O{background-image:url("../../image/tic-tac-toe-2.png")}.game_line{position:absolute;background:rgba(0,0,0,.274)}.game .replay{margin-top:20px;background:#d15e71;color:#fff;border:none;outline:none;padding:10px 30px;border-radius:5px;font-size:16px;cursor:pointer}.form{height:450px}.form_title{font-size:32px;color:#d15e71;margin-bottom:-20px}.form_section{display:flex;flex-direction:column;align-items:flex-start;gap:10px;font-family:Poppins;font-size:14px;margin-top:20px}.form_section_container{display:flex;gap:20px}.form_section_container img{height:100px;width:100px;padding:10px;cursor:pointer}.form_section_container img.selected,.form_section_container img:hover{border-bottom:2px solid #d15e71}.form_section_container div{padding:2px 10px;margin-top:-5px;cursor:pointer;font-size:18px}.form_section_container div.active{color:#d15e71;border:1px solid #d15e71}.form_btn{margin-top:20px;background:#d15e71;color:#fff;border:none;outline:none;padding:10px 30px;border-radius:5px;font-size:16px;cursor:pointer}/*# sourceMappingURL=style.css.map */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  transition: 0.3s;
+}
+body.invisible {
+  opacity: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Light.ttf);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: inherit;
+  font-family: Poppins;
+}
+.game {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.game_card {
+  width: 100px;
+  height: 100px;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.game_card.X {
+  background-image: url("../image/tic-tac-toe-1.webp");
+}
+.game_card.O {
+  background-image: url("../image/tic-tac-toe-2.png");
+}
+.game_line {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.274);
+}
+.game .replay {
+  margin-top: 20px;
+  background: #d15e71;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form {
+  height: 450px;
+}
+.form_title {
+  font-size: 32px;
+  color: #d15e71;
+  margin-bottom: -20px;
+}
+.form_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: Poppins;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.form_section_container {
+  display: flex;
+  gap: 20px;
+}
+.form_section_container img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  cursor: pointer;
+}
+.form_section_container img.selected,
+.form_section_container img:hover {
+  border-bottom: 2px solid #d15e71;
+}
+.form_section_container div {
+  padding: 2px 10px;
+  margin-top: -5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.form_section_container div.active {
+  color: #d15e71;
+  border: 1px solid #d15e71;
+}
+.form_btn {
+  margin-top: 20px;
+  background: #d15e71;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+} /*# sourceMappingURL=style.css.map */
