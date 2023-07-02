@@ -1,0 +1,41 @@
+.game {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &_card {
+    width: 100px;
+    height: 100px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+  }
+
+  &_card.X {
+    background-image: url("../../image/tic-tac-toe-1.webp");
+  }
+
+  &_card.O {
+    background-image: url("../../image/tic-tac-toe-2.png");
+  }
+
+  &_line {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.274);
+  }
+
+  .replay {
+    margin-top: 20px;
+    background: rgb(209, 94, 113);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
